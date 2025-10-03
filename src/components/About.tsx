@@ -1,5 +1,7 @@
 import { Users, Dumbbell, Heart } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import studioInterior from "@/assets/studio-interior.jpg";
+import studioCafe from "@/assets/studio-cafe.jpg";
 
 const About = () => {
   const features = [
@@ -21,9 +23,9 @@ const About = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-background to-accent/10">
+    <section id="about" className="py-20 bg-gradient-to-b from-background to-accent/10">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto space-y-12">
+        <div className="max-w-6xl mx-auto space-y-12">
           {/* Header */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground">
@@ -62,6 +64,24 @@ const About = () => {
                 </p>
               </Card>
             ))}
+          </div>
+
+          {/* Studio Images */}
+          <div className="grid md:grid-cols-2 gap-6 mt-12">
+            <div className="rounded-lg overflow-hidden shadow-[var(--shadow-card)]">
+              <img 
+                src={studioInterior} 
+                alt="スタジオ内部 - ピラティスマシン" 
+                className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="rounded-lg overflow-hidden shadow-[var(--shadow-card)]">
+              <img 
+                src={studioCafe} 
+                alt="スタジオカフェスペース" 
+                className="w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
           </div>
         </div>
       </div>

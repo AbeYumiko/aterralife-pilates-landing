@@ -27,7 +27,7 @@ const Access = () => {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="access" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto space-y-12">
           {/* Header */}

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Instagram, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const scrollToTrial = () => {
@@ -31,7 +32,7 @@ const Footer = () => {
         <div className="py-12 grid md:grid-cols-2 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Aterra Pilates</h3>
+            <img src={logo} alt="Aterra Pilates" className="h-16 w-auto brightness-0 invert" />
             <p className="text-primary-foreground/80 text-sm">
               大地に根ざすように、心と体を整える<br />
               前橋市のピラティススタジオ
