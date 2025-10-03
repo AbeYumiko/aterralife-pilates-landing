@@ -18,8 +18,8 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 25 20% 20%;
 
-    /* Natural green primary */
-    --primary: 142 45% 35%;
+    /* Muted purple primary */
+    --primary: 280 28% 45%;
     --primary-foreground: 0 0% 98%;
 
     /* Warm earth secondary */
@@ -30,23 +30,23 @@ All colors MUST be HSL.
     --muted: 32 25% 92%;
     --muted-foreground: 25 15% 45%;
 
-    /* Sage accent */
-    --accent: 142 25% 75%;
-    --accent-foreground: 142 45% 25%;
+    /* Lavender accent */
+    --accent: 280 20% 75%;
+    --accent-foreground: 280 30% 30%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 32 20% 88%;
     --input: 32 20% 88%;
-    --ring: 142 45% 35%;
+    --ring: 280 28% 45%;
 
     --radius: 0.75rem;
 
     /* Custom design tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(142 45% 35% / 0.95), hsl(142 35% 45% / 0.9));
-    --gradient-soft: linear-gradient(180deg, hsl(32 30% 96%), hsl(142 25% 95%));
-    --shadow-elegant: 0 10px 40px -10px hsl(142 45% 35% / 0.15);
+    --gradient-hero: linear-gradient(135deg, hsl(280 28% 45% / 0.95), hsl(280 25% 55% / 0.9));
+    --gradient-soft: linear-gradient(180deg, hsl(32 30% 96%), hsl(280 15% 95%));
+    --shadow-elegant: 0 10px 40px -10px hsl(280 28% 45% / 0.15);
     --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.08);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -77,7 +77,7 @@ All colors MUST be HSL.
     --popover: 25 25% 15%;
     --popover-foreground: 32 20% 90%;
 
-    --primary: 142 40% 50%;
+    --primary: 280 30% 55%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 32 20% 20%;
@@ -86,7 +86,7 @@ All colors MUST be HSL.
     --muted: 25 15% 22%;
     --muted-foreground: 32 15% 65%;
 
-    --accent: 142 30% 35%;
+    --accent: 280 25% 40%;
     --accent-foreground: 32 20% 90%;
 
     --destructive: 0 62.8% 30.6%;
@@ -94,7 +94,7 @@ All colors MUST be HSL.
 
     --border: 25 15% 25%;
     --input: 25 15% 25%;
-    --ring: 142 40% 50%;
+    --ring: 280 30% 55%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
